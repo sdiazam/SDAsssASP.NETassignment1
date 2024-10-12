@@ -7,6 +7,6 @@
         public string Description { get; set; }
 
         // Child ref
-        public List<Manga> Mangas { get; set; }
+        public List<Manga>? Mangas { get; set; }
     }
 }
