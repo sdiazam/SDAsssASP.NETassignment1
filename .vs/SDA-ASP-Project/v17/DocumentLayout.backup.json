@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\sDiazam\\source\\repos\\SDA-ASP-Project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{48CAF2D8-97FF-46E0-90F1-08D93C141669}|SDA-ASP-Project\\SDA-ASP-Project.csproj|c:\\users\\sdiazam\\source\\repos\\sda-asp-project\\sda-asp-project\\controllers\\genrescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48CAF2D8-97FF-46E0-90F1-08D93C141669}|SDA-ASP-Project\\SDA-ASP-Project.csproj|solutionrelative:sda-asp-project\\controllers\\genrescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{48CAF2D8-97FF-46E0-90F1-08D93C141669}|SDA-ASP-Project\\SDA-ASP-Project.csproj|c:\\users\\sdiazam\\source\\repos\\sda-asp-project\\sda-asp-project\\controllers\\mangascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48CAF2D8-97FF-46E0-90F1-08D93C141669}|SDA-ASP-Project\\SDA-ASP-Project.csproj|solutionrelative:sda-asp-project\\controllers\\mangascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,19 +31,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "GenresController.cs",
+              "DocumentMoniker": "C:\\Users\\sDiazam\\source\\repos\\SDA-ASP-Project\\SDA-ASP-Project\\Controllers\\GenresController.cs",
+              "RelativeDocumentMoniker": "SDA-ASP-Project\\Controllers\\GenresController.cs",
+              "ToolTip": "C:\\Users\\sDiazam\\source\\repos\\SDA-ASP-Project\\SDA-ASP-Project\\Controllers\\GenresController.cs",
+              "RelativeToolTip": "SDA-ASP-Project\\Controllers\\GenresController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T22:01:10.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MangasController.cs",
               "DocumentMoniker": "C:\\Users\\sDiazam\\source\\repos\\SDA-ASP-Project\\SDA-ASP-Project\\Controllers\\MangasController.cs",
               "RelativeDocumentMoniker": "SDA-ASP-Project\\Controllers\\MangasController.cs",
               "ToolTip": "C:\\Users\\sDiazam\\source\\repos\\SDA-ASP-Project\\SDA-ASP-Project\\Controllers\\MangasController.cs",
               "RelativeToolTip": "SDA-ASP-Project\\Controllers\\MangasController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAJ0AAAAAnJmZmRkhwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-12T21:53:11.943Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Manga.cs",
               "DocumentMoniker": "C:\\Users\\sDiazam\\source\\repos\\SDA-ASP-Project\\SDA-ASP-Project\\Models\\Manga.cs",
               "RelativeDocumentMoniker": "SDA-ASP-Project\\Models\\Manga.cs",
@@ -52,7 +69,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Genre.cs",
               "DocumentMoniker": "C:\\Users\\sDiazam\\source\\repos\\SDA-ASP-Project\\SDA-ASP-Project\\Models\\Genre.cs",
               "RelativeDocumentMoniker": "SDA-ASP-Project\\Models\\Genre.cs",
