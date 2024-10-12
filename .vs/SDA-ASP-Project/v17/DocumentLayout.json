@@ -1,7 +1,24 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\sDiazam\\source\\repos\\SDA-ASP-Project\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{48CAF2D8-97FF-46E0-90F1-08D93C141669}|SDA-ASP-Project\\SDA-ASP-Project.csproj|c:\\users\\sdiazam\\source\\repos\\sda-asp-project\\sda-asp-project\\migrations\\20241012215752_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48CAF2D8-97FF-46E0-90F1-08D93C141669}|SDA-ASP-Project\\SDA-ASP-Project.csproj|solutionrelative:sda-asp-project\\migrations\\20241012215752_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48CAF2D8-97FF-46E0-90F1-08D93C141669}|SDA-ASP-Project\\SDA-ASP-Project.csproj|c:\\users\\sdiazam\\source\\repos\\sda-asp-project\\sda-asp-project\\controllers\\mangascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48CAF2D8-97FF-46E0-90F1-08D93C141669}|SDA-ASP-Project\\SDA-ASP-Project.csproj|solutionrelative:sda-asp-project\\controllers\\mangascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48CAF2D8-97FF-46E0-90F1-08D93C141669}|SDA-ASP-Project\\SDA-ASP-Project.csproj|c:\\users\\sdiazam\\source\\repos\\sda-asp-project\\sda-asp-project\\models\\manga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48CAF2D8-97FF-46E0-90F1-08D93C141669}|SDA-ASP-Project\\SDA-ASP-Project.csproj|solutionrelative:sda-asp-project\\models\\manga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48CAF2D8-97FF-46E0-90F1-08D93C141669}|SDA-ASP-Project\\SDA-ASP-Project.csproj|c:\\users\\sdiazam\\source\\repos\\sda-asp-project\\sda-asp-project\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48CAF2D8-97FF-46E0-90F1-08D93C141669}|SDA-ASP-Project\\SDA-ASP-Project.csproj|solutionrelative:sda-asp-project\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +26,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20241012215752_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\sDiazam\\source\\repos\\SDA-ASP-Project\\SDA-ASP-Project\\Migrations\\20241012215752_InitialCreate.cs",
+              "RelativeDocumentMoniker": "SDA-ASP-Project\\Migrations\\20241012215752_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\sDiazam\\source\\repos\\SDA-ASP-Project\\SDA-ASP-Project\\Migrations\\20241012215752_InitialCreate.cs",
+              "RelativeToolTip": "SDA-ASP-Project\\Migrations\\20241012215752_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T21:57:53.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MangasController.cs",
+              "DocumentMoniker": "C:\\Users\\sDiazam\\source\\repos\\SDA-ASP-Project\\SDA-ASP-Project\\Controllers\\MangasController.cs",
+              "RelativeDocumentMoniker": "SDA-ASP-Project\\Controllers\\MangasController.cs",
+              "ToolTip": "C:\\Users\\sDiazam\\source\\repos\\SDA-ASP-Project\\SDA-ASP-Project\\Controllers\\MangasController.cs",
+              "RelativeToolTip": "SDA-ASP-Project\\Controllers\\MangasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T21:53:11.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Manga.cs",
+              "DocumentMoniker": "C:\\Users\\sDiazam\\source\\repos\\SDA-ASP-Project\\SDA-ASP-Project\\Models\\Manga.cs",
+              "RelativeDocumentMoniker": "SDA-ASP-Project\\Models\\Manga.cs",
+              "ToolTip": "C:\\Users\\sDiazam\\source\\repos\\SDA-ASP-Project\\SDA-ASP-Project\\Models\\Manga.cs",
+              "RelativeToolTip": "SDA-ASP-Project\\Models\\Manga.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T21:14:44.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Genre.cs",
+              "DocumentMoniker": "C:\\Users\\sDiazam\\source\\repos\\SDA-ASP-Project\\SDA-ASP-Project\\Models\\Genre.cs",
+              "RelativeDocumentMoniker": "SDA-ASP-Project\\Models\\Genre.cs",
+              "ToolTip": "C:\\Users\\sDiazam\\source\\repos\\SDA-ASP-Project\\SDA-ASP-Project\\Models\\Genre.cs",
+              "RelativeToolTip": "SDA-ASP-Project\\Models\\Genre.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T20:45:57.065Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"

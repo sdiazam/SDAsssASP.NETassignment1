@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SDA-ASP-Project")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+51ef7d3f50b0238356222d11c878cf02a1949162")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1c43500b7b6ac83fa24875cb347d867de8e9970b")]
 [assembly: System.Reflection.AssemblyProductAttribute("SDA-ASP-Project")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SDA-ASP-Project")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
