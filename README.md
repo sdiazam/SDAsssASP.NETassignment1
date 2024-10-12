@@ -1,2 +1,8 @@
-﻿# SDAsssASP.NETassignment1
-The purpose of my Application will be to allow people to read manga for free, search for manga, favorite manga, give a rating, and write comments. The user will also be able to see the author, and artists, etc.
+﻿# Mango Reader
+The purpose of Mango Reader is to give people freedom to read manga online 
+without needing to go on incognito mode incase they run into a pop-up. 
+
+Anyone can search for manga, authors, and artists, or sort by genres. 
+Registered users can add to favorites, give ratings, and leave comments.
+
+Thank you for reading this and trying out my application.
