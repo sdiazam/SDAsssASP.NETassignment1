@@ -5,6 +5,6 @@
         public int Id { get; set; }
         public string Name { get; set; }
         // child ref to mangas
-        public List<Manga> mangas { get; set; }
+        public List<Manga> Mangas { get; set; } = new List<Manga>();
     }
 }

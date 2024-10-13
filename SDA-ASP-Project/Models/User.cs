@@ -7,8 +7,8 @@
         public string Password { get; set; }
         // I will try and make it in a controller so that when Manga.Favorite = true,
         // then it will be added to User.FavoriteManga if that makes sense
-        public List<Manga> FavoriteManga { get; set; }
+        public List<Manga> FavoriteManga { get; set; } = new List<Manga>();
         // child ref to comments
-        public List<Comment> comments { get; set; }
+        public List<Comment> comments { get; set; } = new List<Comment>();
     }
 }

@@ -16,5 +16,6 @@ namespace SDA_ASP_Project.Data
 
         public DbSet<SDA_ASP_Project.Models.Manga> Manga { get; set; } = default!;
         public DbSet<SDA_ASP_Project.Models.Genre> Genre { get; set; } = default!;
+
     }
 }
