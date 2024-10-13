@@ -3,7 +3,8 @@
 // The code below will be based on code from here:
 // https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/working-with-sql?view=aspnetcore-8.0&tabs=visual-studio#seed-the-database
 // It checks if any manga have been created, if not then it will seed 3
-
+// Does not currently work because artists authors and genres need to be seeded as well
+// which i only realized after so I will finish this later
 
 using Microsoft.EntityFrameworkCore;
 using SDA_ASP_Project.Data;

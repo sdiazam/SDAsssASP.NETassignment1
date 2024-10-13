@@ -20,10 +20,32 @@ namespace SDA_ASP_Project.Controllers
         }
 
         // GET: Mangas
-        public async Task<IActionResult> Index()
+        // code ref: https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/search?view=aspnetcore-8.0
+        // first we add the parameter searchString which will allow search in the url 
+        // mangas/searchString=... 
+
+        public async Task<IActionResult> Index(string searchString)
         {
-            var sDA_ASP_ProjectContext = _context.Manga.Include(m => m.Genre);
-            return View(await sDA_ASP_ProjectContext.ToListAsync());
+            // for debugging if there is some case where the DB context is null then it will return the problem
+            if (_context.Manga == null)
+            {
+                return Problem("Entity set 'MvcMovieContext.Movie'  is null.");
+            }
+
+            // this selects from the manga table all manga
+            var manga = from m in _context.Manga
+                        select m;
+
+            // check if searchstring has been passed 
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                // the manga query is filtered by if the search string is contained in the manga titles
+                // toupper makes sure that they are compared case sensitively
+                manga = manga.Where(s => s.Title!.ToUpper().Contains(searchString.ToUpper()));
+            }
+
+            // return the view
+            return View(await manga.ToListAsync());
         }
 
         // GET: Mangas/Details/5

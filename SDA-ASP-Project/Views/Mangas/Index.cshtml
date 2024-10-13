@@ -9,6 +9,20 @@
 <p>
     <a asp-action="Create">Create New</a>
 </p>
+
+<!--code ref: https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/search?view=aspnetcore-8.0 -->
+<!--we do not need to do a HttpPost overload of the index method:
+    get method below does not need to alter the state of the app.
+    it is more useful as you can bookmark the url or share it compared to the 
+    post request since it requests the data in the request body rather than the url
+-->
+<form asp-controller="Mangas" asp-action="Index" method="get">
+    <p>
+        <label>Title: <input type="text" name="SearchString" /></label>
+        <input type="submit" value="Filter" />
+    </p>
+</form>
+
 <table class="table">
     <thead>
         <tr>
