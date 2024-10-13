@@ -1,8 +1,9 @@
-﻿// The code below will be based on code from here:
+﻿/*
+
+// The code below will be based on code from here:
 // https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/working-with-sql?view=aspnetcore-8.0&tabs=visual-studio#seed-the-database
 // It checks if any manga have been created, if not then it will seed 3
-// I added this since I have yet to create the rest of the controllers because they are not required
-// And i am scraed that I will break the app if I do too much
+
 
 using Microsoft.EntityFrameworkCore;
 using SDA_ASP_Project.Data;
@@ -29,12 +30,12 @@ namespace SDA_ASP_Project.Models
                         Description = "Ninjas...",
                         Rating = 3,
                         Chapters = 700,
-                        //CoverPhoto = "",
+                        CoverPhoto = "",
                         ReleaseDate = DateTime.Parse("1999-09-21"),
                         Favorite = false,
-                        /*GenreId = 1,
+                        GenreId = 1,
                         AuthorId = 1,
-                        ArtistId = 1*/
+                        ArtistId = 1
                     },
                     new Manga
                     {
@@ -42,12 +43,12 @@ namespace SDA_ASP_Project.Models
                         Description = "Pirates and peak world building.",
                         Rating = 4,
                         Chapters = 1000,
-                        //CoverPhoto = "",
+                        CoverPhoto = "",
                         ReleaseDate = DateTime.Parse("1997-07-22"),
                         Favorite = false,
-                        /*GenreId = ,
-                        AuthorId = ,
-                        ArtistId = */
+                        GenreId = 2,
+                        AuthorId = 2,
+                        ArtistId = 2
                     },
                     new Manga
                     {
@@ -55,12 +56,12 @@ namespace SDA_ASP_Project.Models
                         Description = "Utterly terrifying.",
                         Rating = 5,
                         Chapters = 139,
-                        //CoverPhoto = "",
+                        CoverPhoto = "",
                         ReleaseDate = DateTime.Parse("2009-09-09"),
                         Favorite = false,
-                        /*GenreId = ,
-                        AuthorId = ,
-                        ArtistId = */
+                        GenreId = 3,
+                        AuthorId = 3,
+                        ArtistId = 3
                     }
                 );
                 context.SaveChanges();
@@ -68,3 +69,4 @@ namespace SDA_ASP_Project.Models
         }
     }
 }
+*/

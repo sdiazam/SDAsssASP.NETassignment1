@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using SDA_ASP_Project.Data;
 using Microsoft.Extensions.DependencyInjection;
+using SDA_ASP_Project.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<SDA_ASP_ProjectContext>(options =>
@@ -18,7 +19,14 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
+/*
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
 
+    SeedMangaData.Initialize(services);
+}
+*/
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
